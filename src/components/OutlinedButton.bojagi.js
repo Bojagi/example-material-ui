@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './ContainedButton'
+import Button from './OutlinedButton'
 
 export const buttonPrimary = () => 
   <Button color="primary">
