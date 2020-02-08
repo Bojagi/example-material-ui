@@ -1,6 +1,11 @@
 import React from 'react';
 import Button from './ContainedButton'
 
+export const buttonDefault = () => 
+  <Button>
+    Default
+  </Button>
+
 export const buttonPrimary = () => 
   <Button color="primary">
     Primary
@@ -11,13 +16,8 @@ export const buttonSecondary = () =>
     Secondary
   </Button>
 
+export const buttonDisabled = () => 
+<Button disabled>
+  Disabled
+</Button>
 
-export const multipleButtons = () => 
-  <div>
-    <Button color="primary">
-      Primary
-    </Button>
-    <Button color="secondary">
-      Secondary
-    </Button> 
-  </div>
