@@ -10,3 +10,14 @@ export const buttonSecondary = () =>
   <Button color="secondary">
     Secondary
   </Button>
+
+
+export const multipleButtons = () => 
+  <div>
+    <Button color="primary">
+      Primary
+    </Button>
+    <Button color="secondary">
+      Secondary
+    </Button> 
+  </div>
