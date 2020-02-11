@@ -33,6 +33,7 @@ TabPanel.propTypes = {
 
 function a11yProps(index) {
   return {
+    key: index,
     id: `simple-tab-${index}`,
     'aria-controls': `simple-tabpanel-${index}`,
   };
@@ -58,7 +59,7 @@ export default function SimpleTabs({ items = []}) {
   }
 
   function TabContent(item, index) {
-    return <TabPanel value={value} index={index}>
+    return <TabPanel value={value} index={index} key={index}>
         {item.content}
      </TabPanel>
   }
