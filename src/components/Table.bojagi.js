@@ -31,4 +31,5 @@ const headCells = [
 ];
 
 
-export const simple = () => <Table rows={rows} headCells={headCells} />
+export const simple = () => <Table rows={rows} headCells={headCells} dense={false} />
+export const dense = () => <Table rows={rows} headCells={headCells} dense={true} />

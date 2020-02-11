@@ -13,6 +13,8 @@ export default function(props) {
       {TransferListStates.enhanced()}
       {Tabs.simple()}
       {Table.simple()}
+      {Table.dense()}
+
     </div>
   )
 }
