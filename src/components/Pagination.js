@@ -1,4 +1,3 @@
-// @component
 import React from 'react';
 import Pagination from '@material-ui/lab/Pagination';
 
