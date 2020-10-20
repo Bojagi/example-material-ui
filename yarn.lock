@@ -773,7 +773,7 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bojagi/cli@^0.11.0":
+"@bojagi/cli@0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.11.0.tgz#f6fb59f1335c5644677151677c202e094fb7aee6"
   integrity sha512-bTNqxVPBzVtZrcp/0o21WpAMqMGBBAry9bxmzLO7mN+PJsBKsZ63ub6SPQMECRnFWSVHAlyNxeRgWQ60v9W4XQ==
