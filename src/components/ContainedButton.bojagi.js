@@ -1,6 +1,10 @@
 import React from 'react';
 import Button from './ContainedButton'
 
+export default {
+  title: 'Contained Button',
+};
+
 export const buttonDefault = () => 
   <Button>
     Default
