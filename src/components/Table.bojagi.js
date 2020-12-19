@@ -1,6 +1,10 @@
 import React from 'react'
 import Table from './Table'
 
+export default {
+  title: 'Table',
+};
+
 function createData(name, calories, fat, carbs, protein) {
   return { name, calories, fat, carbs, protein };
 }

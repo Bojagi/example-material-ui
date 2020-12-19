@@ -1,6 +1,10 @@
 import React from 'react';
 import Button from './OutlinedButton'
 
+export default {
+  title: 'Outlined Button',
+};
+
 export const buttonDefault = () => 
   <Button>
     Default

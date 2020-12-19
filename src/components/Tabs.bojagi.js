@@ -1,6 +1,10 @@
 import React from 'react';
 import Tabs from './Tabs'
 
+export default {
+  title: 'Tabs',
+};
+
 const items = [{
   label: 'first',
   content: 'Once there was a time...'
