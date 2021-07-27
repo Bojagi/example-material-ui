@@ -888,10 +888,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bojagi/cli@^0.16.1":
-  version "0.16.1"
-  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.16.1.tgz#46f0a49d339e023739a185f2a52712283903cab0"
-  integrity sha512-SPraTwRhFxCQdw0IUkBJKSiwGRCKgEup7LaPJbapOmnpYIhO/Fuv101KDTZoIgu7Ibs38QALHyjRmA1CrEE7cg==
+"@bojagi/cli@0.18.0-next.3":
+  version "0.18.0-next.3"
+  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.18.0-next.3.tgz#b2a6499a19a9d3e0f6ded955d642242c85034ade"
+  integrity sha512-QBmyTkA8Aqg4WhZjhryreUCRBS9tl/CKv/4BDjQ2R5mc3huSH5Lm0i6zz6fQFy55kNlxV8VAcQlWViTbjx9/Jw==
   dependencies:
     "@bojagi/types" "^0.9.0"
     adm-zip "^0.4.13"
@@ -912,10 +912,12 @@
     ink-text-input "^4.0.1"
     jsdom "^16.3.0"
     jsdom-global "^3.0.2"
+    matchmedia-polyfill "^0.3.2"
     memory-fs "^0.5.0"
     node-emoji "^1.10.0"
     open "^7.3.0"
     rimraf "^2.6.3"
+    schema-utils "2.7.1"
     semver "^7.3.4"
     simple-git "^2.4.0"
     webpack-dev-server "^3.11.2"
@@ -3988,6 +3990,11 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+matchmedia-polyfill@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/matchmedia-polyfill/-/matchmedia-polyfill-0.3.2.tgz#4666e252aead72e8dd232a9fbde5d93fa50497d3"
+  integrity sha512-B2zRzjqxZFUusBZrZux59XFFLoTN99SbGranxIHfjZVLGZuy8Iaf/s5iNR3qJwRQZBjBKsU6qBSUCltLV82gdw==
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -5074,6 +5081,15 @@ scheduler@^0.20.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
+schema-utils@2.7.1, schema-utils@^2.6.5:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.7.1.tgz#1ca4f32d1b24c590c203b8e7a50bf0ea4cd394d7"
+  integrity sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==
+  dependencies:
+    "@types/json-schema" "^7.0.5"
+    ajv "^6.12.4"
+    ajv-keywords "^3.5.2"
+
 schema-utils@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-1.0.0.tgz#0b79a93204d7b600d4b2850d1f66c2a34951c770"
@@ -5082,15 +5098,6 @@ schema-utils@^1.0.0:
     ajv "^6.1.0"
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
-
-schema-utils@^2.6.5:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.7.1.tgz#1ca4f32d1b24c590c203b8e7a50bf0ea4cd394d7"
-  integrity sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==
-  dependencies:
-    "@types/json-schema" "^7.0.5"
-    ajv "^6.12.4"
-    ajv-keywords "^3.5.2"
 
 schema-utils@^3.0.0:
   version "3.0.0"
